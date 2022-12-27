@@ -251,10 +251,6 @@ end)
 
 ESEX:Section("DANGER ZONE:")
 
--- CREDITS
-
-ESEX:Section("Modified & Designed: xill#0001")
-
 -- REMOVE GUI
 
 ESEX:Button("Remove GUI", function()
@@ -264,4 +260,9 @@ ESEX:Button("Remove GUI", function()
         end
     end
 end)
+
+-- CREDITS
+
+ESEX:Section("Modified & Designed: xill#0001")
+
 
