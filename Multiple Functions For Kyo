@@ -1,6 +1,12 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ROOT-GUI/main/Custom%20GUI", true))()
 local ESEX = library:CreateWindow("Functions for Kyo")
+
+-- MAIN FUNCTIONS
+
 ESEX:Section("MAIN FUNCTIONS:")
+
+-- UNDERGROUND STACK GUI 
+
 ESEX:Button("Underground Stack GUI", function()
 local event = game:GetService("ReplicatedStorage").RemoteFunction
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ROOT-GUI/main/Custom%20GUI", true))()
@@ -57,6 +63,9 @@ OldNamecall = hookmetamethod(game, "__namecall", function(Self, ...)
 end)
 AMBASSING:Section("Modified & Designed: xill#0001")
 end)
+
+-- SELL FARMS FINAL WAVE
+
 ESEX:Button("Sell Farms Final Wave", function()
 if not game:IsLoaded() then game.Loaded:Wait() end
 if game.PlaceId ~= 5591597781 then return end
@@ -82,6 +91,9 @@ StateReplicatorPath:GetAttributeChangedSignal("Wave"):Connect(function()
 	end
 end)
 end)
+
+-- ANIME SKY
+
 ESEX:Button("Anime Sky", function()
 getgenv().ParanormalLighting = true
 
@@ -111,7 +123,19 @@ Shadows = false
 end
 end)
 end)
+
+-- DJ MUSIC GUI
+
+ESEX:Button("DJ Music GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ESEX-ROOT-GUI/main/DJ%20MUSIC%20GUI",true))()
+	end)
+
+-- LOBBY FUNCTIONS
+
 ESEX:Section("LOBBY FUNCTIONS:")
+
+-- SHOW TOWER HOTKEYS MENU
+
 ESEX:Button("Show Tower Hotkeys", function()
 repeat task.wait() until game:IsLoaded()
 if game.PlaceId == 3260590327 then
@@ -205,6 +229,8 @@ end
 end
 end)
 
+-- FORCE MAP CHANGE
+
 ESEX:Button("Force Map Change", function()
 local L = game.ReplicatedStorage.RemoteFunction
 for a, c in pairs(game:GetService('Workspace').Elevators:GetChildren()) do
@@ -220,7 +246,16 @@ for a, c in pairs(game:GetService('Workspace').Elevators:GetChildren()) do
 L:InvokeServer("Elevators", "Leave")
     wait(1)
 end)
+
+-- DANGER AMOGOS
+
 ESEX:Section("DANGER ZONE:")
+
+-- CREDITS
+
+ESEX:Section("Modified & Designed: xill#0001")
+
+-- REMOVE GUI
 
 ESEX:Button("Remove GUI", function()
  for i,v in pairs(game:GetService("CoreGui"):GetDescendants()) do
@@ -229,5 +264,4 @@ ESEX:Button("Remove GUI", function()
         end
     end
 end)
-ESEX:Section("Modified & Designed: xill#0001")
 
