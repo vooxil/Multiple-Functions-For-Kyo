@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ROOT-GUI/main/Custom%20GUI", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/Lua-libraries/main/Custom%20GUI", true))()
 local ESEX = library:CreateWindow("Functions for Kyo")
 
 -- MAIN FUNCTIONS
@@ -9,7 +9,7 @@ ESEX:Section("MAIN FUNCTIONS:")
 
 ESEX:Button("Underground Stack GUI", function()
 local event = game:GetService("ReplicatedStorage").RemoteFunction
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ROOT-GUI/main/Custom%20GUI", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/Lua-libraries/main/Custom%20GUI", true))()
 local AMBASSING = library:CreateWindow("Underground Stack")
 local h = -1
 local times = 1
