@@ -127,7 +127,7 @@ end)
 -- DJ MUSIC GUI
 
 ESEX:Button("DJ Music GUI", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/HOT-TDS-AMOGUS-ESEX-ROOT-GUI/main/DJ%20MUSIC%20GUI",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vooxil/TDS-Functions/main/DJ%20MUSIC%20GUI",true))()
 	end)
 
 -- LOBBY FUNCTIONS
